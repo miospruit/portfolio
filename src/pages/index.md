@@ -2,77 +2,56 @@
 title: Home
 sections:
   - type: heroblock
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
+    title: 'Hi, I''m Mio Spruit '
     section_id: hero
     component: HeroBlock
     content: >-
       This section can contain a subtitle or tagline. The recommended length is
       one to three sentences, but can be changed as you prefer.
-  - type: portfolioblock
-    title: Recent Work
-    section_id: latest-projects
-    component: PortfolioBlock
-    subtitle: An optional subtitle of the section
-    layout_style: mosaic
+  - view_all_text: View All
     num_projects_displayed: 6
-    view_all_text: View All
+    section_id: latest-projects
     view_all_url: portfolio/index.html
+    subtitle: An optional subtitle of the section
+    title: Recent Work
+    type: portfolioblock
+    layout_style: mosaic
+    component: PortfolioBlock
   - type: servicesblock
-    title: What We Do
+    title: What I do
     section_id: services
     component: ServicesBlock
-    subtitle: An optional subtitle of the section
+    subtitle: Or more what I love to do
     serviceslist:
-      - title: Service Title
+      - title: Web development
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla tortor at, pulvinar orci.
-      - title: Service Title
+          Web development is a part of what I love to do. Creating websites,
+          blogs, web applications. And I got experience in Laravel, Node.js,
+          React.js, Vue.js, Git, Bootstrap, SASS, PHP, HTML, JavaScript.
+      - title: Interaction design
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius. 
-      - title: Service title
+          Creating interaction designs for mobile, tablet, desktop and other
+          devices makes me thrive. I have worked with Creative Cloud, Sketch,
+          Adobe XD, Invision and paper prototyping.
+      - title: Smart Objects
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - title: Service title
-        content: >-
-          Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis
-          justo, sit amet condimentum lorem nibh vel quam. Duis consectetur
-          lorem ipsum, non efficitur urna viverra et.
-  - type: testimonialsblock
-    title: Testimonials
-    section_id: testimonials
-    component: TestimonialsBlock
-    subtitle: An optional subtitle of the section
-    testimonialslist:
-      - author: John Doe
-        avatar: images/john_doe.jpg
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Jane Roe
-        avatar: images/jane_roe.jpg
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
+          This is something I like to do, building smart objects. Working with
+          arduino, circuit playground and sensors. Still trying to get better
+          with tensorflow and google assistant.
   - type: postsblock
     title: Latest from the Blog
     section_id: latest-posts
     component: PostsBlock
-    subtitle: An optional subtitle of the section
+    subtitle: These are my latest posts about me.
     num_posts_displayed: 2
     actions:
       - label: View Blog
         url: blog/index.html
   - type: contactblock
-    title: Contact Us
+    title: Contact Me
     section_id: contact
     component: ContactBlock
-    subtitle: An optional subtitle of the section
+    subtitle: Get in contact with this thing or.... some other way.
 menus:
   main:
     title: Home
